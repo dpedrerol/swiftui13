@@ -15,10 +15,13 @@ struct ContentView: View {
             .font(.custom("Andale Mono" , size: 35))
             .foregroundColor(.blue)
             .multilineTextAlignment(.center)
-            .lineLimit(5)
+            .lineLimit(nil)
             .truncationMode(.tail)
             .lineSpacing(10)
-            .padding()
+            .padding(25)
+//         .rotationEffect(.degrees(15), anchor: UnitPoint(x: 0, y: 0))
+            .rotation3DEffect(.degrees(35), axis: (x: 1, y: 0, z: 0))
+            .shadow(color: .gray, radius: 1, x: 0, y: 3)
         
         
         
