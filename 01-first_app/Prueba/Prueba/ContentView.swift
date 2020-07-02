@@ -10,10 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("Justo que pensaba, en vos nena, caí muerto! Que sólo y triste voy a estar en este cementerio, que calor hará sin vos en verano.")
             .fontWeight(.bold)
-            .font(.system(size: 45 , design: .rounded))
-            .foregroundColor(.red)
+            .font(.custom("Andale Mono" , size: 35))
+            .foregroundColor(.blue)
+            .multilineTextAlignment(.center)
+            .lineLimit(5)
+            .truncationMode(.tail)
+            .lineSpacing(10)
+            .padding()
+        
+        
+        
     }
 }
 
