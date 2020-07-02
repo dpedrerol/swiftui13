@@ -13,7 +13,7 @@ struct ContentView: View {
         Text("Hello, World!")
             .fontWeight(.bold)
             .font(.system(size: 45 , design: .rounded))
-            .foregroundColor(.green)
+            .foregroundColor(.red)
     }
 }
 
